@@ -1,0 +1,25 @@
+{
+  "name": "cc-cli",
+  "version": "1.0.0",
+  "description": "🏗 A custom development scaffold",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccdevstudio/cc-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccdevstudio/cc-cli/issues"
+  },
+  "homepage": "https://github.com/ccdevstudio/cc-cli#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "inquirer": "^8.2.0"
+  }
+}
