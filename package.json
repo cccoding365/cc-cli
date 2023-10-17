@@ -1,9 +1,20 @@
 {
-  "name": "cc-cli",
+  "name": "@cc-cli/create-project",
   "version": "1.0.0",
   "description": "🏗 A custom development scaffold",
-  "main": "index.js",
-  "bin": "cli.js",
+  "main": "src/index.js",
+  "bin": {
+    "@cc-cli/create-project": "bin/create-project",
+    "create-project": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,15 +22,25 @@
     "type": "git",
     "url": "git+https://github.com/ccdevstudio/cc-cli.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "author": "DoubledConG",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ccdevstudio/cc-cli/issues"
   },
   "homepage": "https://github.com/ccdevstudio/cc-cli#readme",
   "dependencies": {
+    "arg": "^5.0.2",
+    "chalk": "^4.1.2",
     "ejs": "^3.1.9",
-    "inquirer": "^8.2.0"
+    "esm": "^3.2.25",
+    "execa": "^5.1.1",
+    "inquirer": "^8.2.6",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
   }
 }
