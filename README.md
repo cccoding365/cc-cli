@@ -1,6 +1,6 @@
 <h1 align="center">cc-cli</h1>
 <p align="center">
-🏗 A custom development scaffold.
+🚀 A custom development scaffold.
 </p>
 
 ## 📦 CLI-focused packages:
